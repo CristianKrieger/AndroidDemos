@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:param="http://schemas.android.com/apk/res/com.essentailab.training.android101demos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+	<com.essentailab.training.android101demos.view.CardView    
+	    param:image="@drawable/sample_img_blue"
+	    param:textColor="#fff"
+	    param:textBgndColor="#68343434"
+	    param:backBgndColor="#ddd"
+	    android:id="@+id/frag_custom_card1"
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"/>
+	<com.essentailab.training.android101demos.view.CardView    
+	    param:image="@drawable/sample_img_red"
+	    param:textColor="#fff"
+	    param:textBgndColor="#68343434"
+	    param:backBgndColor="#ddd"
+	    android:id="@+id/frag_custom_card2"
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"/>
+	<com.essentailab.training.android101demos.view.CardView    
+	    param:image="@drawable/sample_img_green"
+	    param:textColor="#fff"
+	    param:textBgndColor="#68343434"
+	    param:backBgndColor="#ddd"
+	    android:id="@+id/frag_custom_card3"
+	    android:layout_width="150dp"
+	    android:layout_height="150dp"/>
+</LinearLayout>

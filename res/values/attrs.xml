@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardView">
+        <attr name="text" format="string"/>
+        <attr name="textBgndColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="image" format="reference"/>
+        <attr name="backBgndColor" format="color"/>
+        <attr name="backText" format="string"/>
+    </declare-styleable>
+</resources> 

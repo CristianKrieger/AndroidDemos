@@ -1,5 +1,5 @@
 <resources>
     <!-- Application theme. -->
-    <style name="AppTheme" parent="Theme.Sherlock">
+    <style name="AppTheme" parent="Theme.AppCompat">
     </style>
 </resources>

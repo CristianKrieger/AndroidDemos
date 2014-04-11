@@ -95,7 +95,7 @@ public class MainActivity extends ActionBarActivity implements OnNavigationListe
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
 			if(convertView==null)
-				convertView=((ActionBarActivity)c).getLayoutInflater().inflate(layoutId, null);
+				convertView=getLayoutInflater().inflate(layoutId, parent, false);
 			((TextView)convertView.findViewById(textItemId)).setText(getItem(position));
 			return convertView;
 		}
@@ -132,7 +132,7 @@ public class MainActivity extends ActionBarActivity implements OnNavigationListe
 		public View getDropDownView(int position, View convertView,
 				ViewGroup parent) {
 			if(convertView==null)
-				convertView=((ActionBarActivity)c).getLayoutInflater().inflate(layoutId, null);
+				convertView=getLayoutInflater().inflate(layoutId, parent, false);
 			((TextView)convertView.findViewById(textItemId)).setText(getItem(position));
 			return convertView;
 		}
